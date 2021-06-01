@@ -10,7 +10,7 @@ copyright: '&copy; 2021 tuanalexeu'
 # Repository
 repo_name: 'GitLab'
 repo_url: 'https://gitlab.com/tuanalexeu/logiweb-microservices/'
-edit_uri: 'https://github.com/peaceiris/mkdocs-material-boilerplate/edit/master/docs' # TODO change
+edit_uri: 'https://gitlab.com/tuanalexeu/technical-solution-description/-/tree/main/docs'
 
 # Configuration
 docs_dir: 'docs'
@@ -23,16 +23,10 @@ theme:
     previous: 80 # p
     search: 83   # s
   palette:
-    primary: 'blue'
-    accent: 'blue'
+    primary: '#e20075'
+    accent: '#e20075'
   features:
     - tabs
-    #font:
-    #text: 'Ubuntu'
-    #code: 'Ubuntu Mono'
-    #icon:
-    #logo: 'images/logo.svg'
-  #favicon: 'assets/images/favicon.ico'
 
 # Extensions
 markdown_extensions:
@@ -61,27 +55,23 @@ extra:
   social:
     - icon: 'fontawesome/brands/github-alt'
       link: 'https://github.com/tuanalexeu'
-    - icon: 'fontawesome/brands/twitter'
-      link: 'https://twitter.com/piris314en'
+    - icon: 'fontawesome/brands/vk'
+      link: 'https://vk.com/anonymousmen'
 
 # Page tree
 nav:
   - 'Home': 'index.md'
-  - 'Material for MkDocs': 'material-for-mkdocs.md'
-  - 'Getting started':
-      - 'Download boilerplate': 'getting-started/download-boilerplate.md'
-      - 'pipenv': 'getting-started/pipenv.md'
-      - 'invoke': 'getting-started/invoke.md'
-      - 'Docker': 'getting-started/docker.md'
-      - 'pip': 'getting-started/pip.md'
-  - 'Hosting and Deployment':
-      - 'Combinations': 'hosting-and-deployment/combinations.md'
-      - 'Netlify': 'hosting-and-deployment/netlify.md'
-      - 'GitHub Pages': 'hosting-and-deployment/github-pages.md'
-      - 'GitLab Pages': 'hosting-and-deployment/gitlab-pages.md'
-      - 'AWS Amplify Console': 'hosting-and-deployment/aws-amplify-console.md'
-  - 'Extensions':
-      - 'MathJax': 'extensions/mathjax.md'
-      - 'Code Hilite': 'extensions/code-hilite.md'
-      - 'Footnote': 'extensions/footnote.md'
-  - 'License': 'license.md'
+  - 'Microservices':
+      - 'Logiweb': 'microservices/logiweb-service.md'
+      - 'Dashboard': 'microservices/dashboard-service.md'
+      - 'Info-Table': 'microservices/info-table.md'
+      - 'Configuration': 'microservices/config-service.md'
+  - 'Logging': 'logging.md'
+  - 'Testing': 'testing.md'
+  - 'MQ Broker': 'rabbitmq.md'
+  - 'Deployment':
+      - 'GitLab': 'deployment/gitlab.md'
+      - 'Docker': 'deployment/docker.md'
+      - 'Kubernetes': 'deployment/k8s.md'
+      - 'Google Cloud Platform': 'deployment/gcp.md'
+  - 'Killer features': 'features.md'

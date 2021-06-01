@@ -1,0 +1,16 @@
+h2 {
+    margin: 4rem 0rem 2rem 0rem !important;
+    border-bottom: solid 1px rgb(226, 0, 117);
+}
+
+h3 {
+    margin: 3rem 0rem 1rem 0rem !important;
+    padding: 0rem 0rem 0.5rem 0.5rem !important;
+    border-left: solid 2px rgb(226, 0, 117);
+}
+
+:root {
+    --md-primary-fg-color: #e20075;
+    --md-primary-fg-color--light: #e20075;
+    --md-primary-fg-color--dark: #e20075;
+}
