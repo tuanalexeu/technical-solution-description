@@ -1,3 +1,87 @@
-site_name: Technical Solution Description by Aleksey T.
+# Project information
+site_name: 'Logiweb Microservices'
+site_description: 'Technical solution description for Logiweb Microservices project.'
+site_author: 'Aleksey Tyan'
+site_url: 'https://gitlab.com/tuanalexeu/logiweb-microservices/'
+
+# Copyright
+copyright: '&copy; 2021 tuanalexeu'
+
+# Repository
+repo_name: 'GitLab'
+repo_url: 'https://gitlab.com/tuanalexeu/logiweb-microservices/'
+edit_uri: 'https://github.com/peaceiris/mkdocs-material-boilerplate/edit/master/docs' # TODO change
+
+# Configuration
+docs_dir: 'docs'
 theme:
-  name: material
+  name: 'material'
+  language: 'en'
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
+  palette:
+    primary: 'blue'
+    accent: 'blue'
+  features:
+    - tabs
+    #font:
+    #text: 'Ubuntu'
+    #code: 'Ubuntu Mono'
+    #icon:
+    #logo: 'images/logo.svg'
+  #favicon: 'assets/images/favicon.ico'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - mdx_math:
+      enable_dollar_delimiter: true
+  - toc:
+      permalink: true
+      separator: '_'
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+      lang:
+        - en
+
+# Customization
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML'
+extra_css:
+  - 'assets/css/custom.css'
+extra:
+  manifest: 'manifest.json'
+  social:
+    - icon: 'fontawesome/brands/github-alt'
+      link: 'https://github.com/tuanalexeu'
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/piris314en'
+
+# Page tree
+nav:
+  - 'Home': 'index.md'
+  - 'Material for MkDocs': 'material-for-mkdocs.md'
+  - 'Getting started':
+      - 'Download boilerplate': 'getting-started/download-boilerplate.md'
+      - 'pipenv': 'getting-started/pipenv.md'
+      - 'invoke': 'getting-started/invoke.md'
+      - 'Docker': 'getting-started/docker.md'
+      - 'pip': 'getting-started/pip.md'
+  - 'Hosting and Deployment':
+      - 'Combinations': 'hosting-and-deployment/combinations.md'
+      - 'Netlify': 'hosting-and-deployment/netlify.md'
+      - 'GitHub Pages': 'hosting-and-deployment/github-pages.md'
+      - 'GitLab Pages': 'hosting-and-deployment/gitlab-pages.md'
+      - 'AWS Amplify Console': 'hosting-and-deployment/aws-amplify-console.md'
+  - 'Extensions':
+      - 'MathJax': 'extensions/mathjax.md'
+      - 'Code Hilite': 'extensions/code-hilite.md'
+      - 'Footnote': 'extensions/footnote.md'
+  - 'License': 'license.md'
