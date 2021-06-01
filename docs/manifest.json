@@ -1,7 +1,7 @@
 {
-    "short_name": "MkDocs",
-    "name": "MkDocs Material Boilerplate",
-    "description": "MkDocs Material Boilerplate (Starter Kit) - Deploy documentation to hosting platforms (Netlify, GitHub Pages, GitLab Pages, and AWS Amplify Console) with Docker, pipenv, and GitHub Actions.",
+    "short_name": "Logiweb Microservices",
+    "name": "Logiweb Microservices TSD",
+    "description": "Technical solution description solution for Logiweb Microservices project",
     "lang": "en-US",
     "icons": [
         {
@@ -22,7 +22,7 @@
     ],
     "start_url": "index.html",
     "background_color": "#2196F3",
-    "theme_color": "#2196F3",
+    "theme_color": "#e20074",
     "display": "standalone",
     "orientation": "portrait-primary",
     "prefer_related_applications": false
