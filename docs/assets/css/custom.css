@@ -8,3 +8,9 @@ h3 {
     padding: 0rem 0rem 0.5rem 0.5rem !important;
     border-left: solid 2px rgb(226, 0, 116);
 }
+
+:root {
+    --md-primary-fg-color: #e20074;
+    --md-primary-fg-color--light: #e20074;
+    --md-primary-fg-color--dark: #e20074;
+}
