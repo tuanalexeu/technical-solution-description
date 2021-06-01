@@ -1,9 +1,9 @@
 FROM python:3.8-slim-buster
 
-LABEL maintainer="peaceiris"
+LABEL maintainer="tuanalexeu"
 
-# Install requirements
-COPY ./requirements.txt /root
+## Install requirements
+COPY ./ /root
 WORKDIR /root
 RUN python3 -m pip install --no-cache-dir --upgrade pip && \
     python3 -m pip install --no-cache-dir -r ./requirements.txt && \

@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: tsd-service
-          image: squidfunk/mkdocs-material:final-task
+          image: tuanalexeu/final-task2:latest
           ports:
             - containerPort: 8000
