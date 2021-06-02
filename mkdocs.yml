@@ -54,7 +54,7 @@ extra:
   manifest: 'manifest.json'
   social:
     - icon: 'fontawesome/brands/github-alt'
-      link: 'https://github.com/tuanalexeu'
+      link: 'https://gitlab.com/tuanalexeu'
     - icon: 'fontawesome/brands/vk'
       link: 'https://vk.com/anonymousmen'
 
