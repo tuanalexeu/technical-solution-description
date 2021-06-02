@@ -63,7 +63,7 @@ nav:
   - 'Home': 'index.md'
   - 'Microservices':
       - 'Logiweb': 'microservices/logiweb-service.md'
-      - 'Dashboard': 'microservices/dashboard-service.md'
+      - 'Client order service': 'microservices/client-order-service.md'
       - 'Info-Table': 'microservices/info-table.md'
       - 'Configuration': 'microservices/config-service.md'
   - 'Logging': 'logging.md'
@@ -74,4 +74,3 @@ nav:
       - 'Docker': 'deployment/docker.md'
       - 'Kubernetes': 'deployment/k8s.md'
       - 'Google Cloud Platform': 'deployment/gcp.md'
-  - 'Killer features': 'features.md'
