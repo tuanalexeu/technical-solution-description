@@ -78,6 +78,7 @@ By using these two together, I managed to decrease time complexity from ... TO B
 ## Technology stack
 <dl>
 <li>Spring Framework</li>
+<li>Google Cloud SDK</li>
 <li>JPA</li>
 <li>MySQL</li>
 <li>JSP</li>
