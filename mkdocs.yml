@@ -74,3 +74,4 @@ nav:
       - 'Docker': 'deployment/docker.md'
       - 'Kubernetes': 'deployment/k8s.md'
       - 'Google Cloud Platform': 'deployment/gcp.md'
+  - 'Summary': 'summary.md'
