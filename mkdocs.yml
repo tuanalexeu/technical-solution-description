@@ -63,9 +63,9 @@ nav:
   - 'Home': 'index.md'
   - 'Microservices':
       - 'Logiweb': 'microservices/logiweb-service.md'
-      - 'Client order service': 'microservices/client-order-service.md'
-      - 'Info-Table': 'microservices/info-table.md'
-      - 'Configuration': 'microservices/config-service.md'
+      - 'Client Service': 'microservices/client-order-service.md'
+      - 'Dashboard': 'microservices/info-table.md'
+      - 'Spring Cloud Config': 'microservices/config-service.md'
   - 'Logging': 'logging.md'
   - 'Testing': 'testing.md'
   - 'MQ Broker': 'rabbitmq.md'

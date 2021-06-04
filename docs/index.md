@@ -15,6 +15,20 @@ Here you can read how and in what way the project was written, built and deploye
 <!-- https://shields.io/ -->
 
 
+## Success criteria
+1. Functionality works (UI is required)
+2. Maven-based project, split into modules (build with one command, deploy with one command)
+3. The interfaces of the subject area are described.
+4. MySQL DB is connected
+5. The entities of the subject area have been created; mapping to tables in the database
+6. Working with entities through DAO
+7. The application is deployed to AS
+8. Implemented exception handling
+9. Logging is enabled
+10. Technical solution description
+11. Unit tests for business logic
+
+
 ## Links
 
 - [tuanalexeu/logiweb-microservices: GitLab]
