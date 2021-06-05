@@ -28,17 +28,40 @@ Here you can read how and in what way the project was written, built and deploye
 10. Technical solution description
 11. Unit tests for business logic
 
+## About this site
+
+Instead of writing TSD the old way (Such as PDF/Word etc.), 
+I decided to write using modern tools. My eyes fell on MK-Docs tool. 
+MK-Docs is used to create documentation site with minimal efforts. 
+
+All I have to do is to define folder structure and fill it with MD files, like follows:
+```yaml
+# Page tree
+nav:
+  - 'Home': 'index.md'
+  - 'Microservices':
+      - 'Logiweb': 'microservices/logiweb-service.md'
+      - 'Client Service': 'microservices/client-order-service.md'
+      - 'Dashboard': 'microservices/info-table.md'
+      - 'Spring Cloud Config': 'microservices/config-service.md'
+  - 'Logging': 'logging.md'
+  - 'Testing': 'testing.md'
+  - 'MQ Broker': 'rabbitmq.md'
+  - 'Deployment':
+      - 'GitLab': 'deployment/gitlab.md'
+      - 'Docker': 'deployment/docker.md'
+      - 'Kubernetes': 'deployment/k8s.md'
+      - 'Google Cloud Platform': 'deployment/gcp.md'
+  - 'Summary': 'summary.md'
+```
+
 
 ## Links
 
+- [tuanalexeu/gmail: Get in touch with me]
 - [tuanalexeu/logiweb-microservices: GitLab]
 - [tuanalexeu/dockerhub: DockerHub]
 
+[tuanalexeu/gmail: Get in touch with me]: mailto:alekseytyan45@gmail.com
 [tuanalexeu/logiweb-microservices: GitLab]: https://gitlab.com/tuanalexeu/logiweb-microservices
 [tuanalexeu/dockerhub: DockerHub]: https://hub.docker.com/u/tuanalexeu
-
-## About Maintainer
-
-- [tuanalexeu/gmail: Get in touch with me]
-
-[tuanalexeu/gmail: Get in touch with me]: mailto:alekseytyan45@gmail.com
