@@ -1,6 +1,6 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/docs_sample/images/graduate-cap.png" alt="MkDocs icon" width="170">
-<br>GitLab is better for DevOps
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/GitLab_logo.svg/1280px-GitLab_logo.svg.png" alt="drawing" width="200">
+<br><br>GitLab is better for DevOps
 </h1>
 
 ## Description

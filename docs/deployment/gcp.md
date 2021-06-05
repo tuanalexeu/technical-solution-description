@@ -1,6 +1,6 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/docs_sample/images/graduate-cap.png" alt="MkDocs icon" width="170">
-<br>Kubernetes orchestration
+<img src="https://download.logo.wine/logo/Google_Cloud_Platform/Google_Cloud_Platform-Logo.wine.png" alt="MkDocs icon" width="200">
+<br>Google Cloud takes care of everything
 </h1>
 
 ## Description
@@ -25,6 +25,9 @@ I get rid of most of the problems: Scaling, Supporting, Recovering. Google will 
 ![img_4.png](img_4.png)
 
 ## Google Pub/Sub
+This is a great alternative to RabbitMQ & ActiveMQ. The difference is, the broker is Google itself. 
+It stores messages to remote Data store volume and sends it to subs whenever they're ready.
+![img_5.png](img_5.png)
 
 ## Why not Amazon Web Services?
 It's important to note that my project was running on AWS first, but since Amazon doesn't provide free trial for 

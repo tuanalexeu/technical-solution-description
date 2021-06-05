@@ -1,6 +1,6 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/docs_sample/images/graduate-cap.png" alt="MkDocs icon" width="170">
-<br>Kubernetes orchestration
+<img src="https://www.vhv.rs/dpng/d/484-4842971_kubernetes-logo-png-kubernetes-logo-vector-transparent-png.png" alt="drawing" width="200">
+<br><br>Kubernetes orchestration
 </h1>
 
 ## Description
