@@ -9,8 +9,9 @@
 ## Description
 
 <p>
-Here you can read how and in what way the project was written, built and deployed to GKE.
-</p>
+Logiweb Microservices is a big project with microservices architecture. That is, this is REST-ful application deployed to Google Cloud.
+It consists of 4 small application: Logiweb, Dashboard, Client Service and Centralized Config Server, 
+each will be explained in the following sections. </p>
 
 <!-- https://shields.io/ -->
 
