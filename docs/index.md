@@ -3,7 +3,7 @@
 <br>Technical Solution Description (TSD) for Logiweb Microservices
 </h1>
 
-![Eyecatch image of MkDocs Material Boilerplate (Starter Kit)](https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/docs_sample/images/material.png)
+[comment]: <> (![Eyecatch image of MkDocs Material Boilerplate &#40;Starter Kit&#41;]&#40;https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/docs_sample/images/material.png&#41;)
 
 
 ## Description
@@ -28,6 +28,10 @@ each will be explained in the following sections. </p>
 9. Logging is enabled
 10. Technical solution description
 11. Unit tests for business logic
+
+## SonarQube
+
+[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=tuanalexeu_logiweb-microservices)](https://sonarcloud.io/dashboard?id=tuanalexeu_logiweb-microservices)
 
 ## About this site
 
