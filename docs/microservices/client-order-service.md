@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/docs_sample/images/graduate-cap.png" alt="MkDocs icon" width="170">
+<img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
 <br>Client order service
 </h1>
 

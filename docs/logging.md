@@ -1,6 +1,5 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/docs_sample/images/graduate-cap.png" alt="MkDocs icon" width="170">
-<br>Logging
+Logging
 </h1>
 
 ## Description
