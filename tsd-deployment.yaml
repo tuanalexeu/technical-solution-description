@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: tsd-service
-          image: tuanalexeu/final-task2:latest
+          image: tuanalexeu/final-task3:latest
           ports:
             - containerPort: 8000
