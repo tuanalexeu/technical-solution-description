@@ -1,6 +1,6 @@
 <h1 align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/GitLab_logo.svg/1280px-GitLab_logo.svg.png" alt="drawing" width="200">
-<br><br>GitLab is better for DevOps
+<br><img src="https://futurehax.com/wp-content/uploads/2020/06/gitlab-icon-rgb.png" alt="drawing" width="200">
+<br>GitLab is better for DevOps
 </h1>
 
 ## Description

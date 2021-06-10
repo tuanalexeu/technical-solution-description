@@ -1,10 +1,7 @@
 <h1 align="center">
-<img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
+<br><img src="https://comunytek.com/wp-content/uploads/2017/03/Microservices.png" alt="MkDocs icon" width="170">
 <br>Technical Solution Description (TSD) for Logiweb Microservices
 </h1>
-
-[comment]: <> (![Eyecatch image of MkDocs Material Boilerplate &#40;Starter Kit&#41;]&#40;https://raw.githubusercontent.com/peaceiris/mkdocs-material-boilerplate/master/docs_sample/images/material.png&#41;)
-
 
 ## Description
 

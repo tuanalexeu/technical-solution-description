@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
+<br><img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
 <br>Logiweb Dashboard
 </h1>
 

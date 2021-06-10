@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://download.logo.wine/logo/Google_Cloud_Platform/Google_Cloud_Platform-Logo.wine.png" alt="MkDocs icon" width="200">
+<br><img src="https://download.logo.wine/logo/Google_Cloud_Platform/Google_Cloud_Platform-Logo.wine.png" alt="MkDocs icon" width="200">
 <br>Google Cloud takes care of everything
 </h1>
 
@@ -31,7 +31,7 @@ It stores messages to remote Data store volume and sends it to subs whenever the
 
 ## Why not Amazon Web Services?
 It's important to note that my project was running on AWS first, but since Amazon doesn't provide free trial for 
-some of its services (e.g. Amazon EKS, Amazon MQ). So I decided to migrate to Google completely.
+some of its services (e.g. Amazon EKS, Amazon MQ), I decided to migrate to Google completely.
 
 
 #### Key differences

@@ -1,10 +1,10 @@
 <h1 align="center">
-<img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
-<br>Client order service
+<br><img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
+<br>Client Service
 </h1>
 
 ## Description
-This is where end-user can make an order adn check its status until it's ready.
+This is where end-user can make an order and check its status until it's ready.
 When user submit new order, it proceeds to main application where the order is stored.
 Now, any order changes will be synchronized with this application, 
 so that user can see real-time delivery status.
@@ -12,8 +12,8 @@ so that user can see real-time delivery status.
 
 ## Project structure
 <dl>
-<li>This is the second microservice which means that it will not work without connection to the main application.</li>
-<li>Like Logiweb service, this application has MVC structure, so that it uses its own MySQL schema.</li>
+<li>This is the third microservice which means that it will not work without connection to the main application.</li>
+<li>Like Logiweb service, this application has MVC structure, so that it uses its own database.</li>
 <li>Client order service interact with the main application through REST-endpoints.</li>
 </dl>
 

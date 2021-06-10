@@ -1,14 +1,13 @@
 <h1 align="center">
-<img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
+<br><img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
 <br>Spring Cloud Configuration Server
 </h1>
 
 ## Description
 
 <p>
-The next microservice is a centralized configuration server supported by Spring Cloud. 
-This is the place where all configuration properties are stored. 
-Storing all the data in one place makes it easier to maintain the whole project, since I can easily view the files.
+The last but not least microservice is Centralized Config Service which is a great tool for storing 
+properties of all services in one place, so that it's easier to maintain. This is done by using Spring Cloud.
 </p>
 
 <!-- https://shields.io/ -->
@@ -39,7 +38,7 @@ spring:
       server:
         git:
           uri: ${GIT_CONFIG_URI}
-          searchPaths: logiweb-service, client-order-service
+          searchPaths: logiweb-service, client-order-service,chat-service
 
 # enable all actuator endpoints for testing (review this for real deployments)
 management.endpoints.web:

@@ -1,5 +1,6 @@
 <h1 align="center">
-Logging
+<br><img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
+<br>Logging with AOP
 </h1>
 
 ## Description

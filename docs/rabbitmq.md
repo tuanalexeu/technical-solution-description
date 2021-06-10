@@ -1,6 +1,8 @@
 <h1 align="center">
-MQ Broker
+<br><img src="https://assets.zabbix.com/img/brands/rabbitmq.svg" alt="MkDocs icon" width="170">
+<br>MQ Broker
 </h1>
+
 
 ## Description
 
@@ -8,6 +10,8 @@ MQ Broker
 I use different MQ Broker throughout development. Those are ActiveMQ, RabbitMQ and 
 Google Pub/Sub service which is being used now.
 </p>
+
+<img src="https://miro.medium.com/max/5652/1*RKAP8xY3Btg2WQnq5kuk3A.png"/>
 
 <!-- https://shields.io/ -->
 

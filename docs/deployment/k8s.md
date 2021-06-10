@@ -1,6 +1,6 @@
 <h1 align="center">
-<img src="https://www.vhv.rs/dpng/d/484-4842971_kubernetes-logo-png-kubernetes-logo-vector-transparent-png.png" alt="drawing" width="200">
-<br><br>Kubernetes orchestration
+<br><img src="https://www.logo.wine/a/logo/Kubernetes/Kubernetes-Logo.wine.svg" alt="drawing" width="200">
+<br>Kubernetes orchestration
 </h1>
 
 ## Description
