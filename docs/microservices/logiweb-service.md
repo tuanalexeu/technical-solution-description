@@ -1,25 +1,27 @@
 <h1 align="center">
-<img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
-<br>Main Logiweb service
+<br><img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
+<br>Main Logiweb Application
 </h1>
 
 ## Description
 
-<p>
-This is the main application and all the microservices depend on it.
-<br>
-The platform aims to facilitate the management of cargo transportation
-</p>
+<dl>
+<li>This is the main application and all the microservices depend on it.</li>
+<li>The platform aims to facilitate the management of cargo transportation.</li>
+<li>It's only created for use within company, it's being used only by staff, 
+but we have another application called 'Client Service' where users and clients may make orders. As you might guess, 
+that app interact with Logiweb Service.</li>
+</dl>
 
 <!-- https://shields.io/ -->
 
 ## Technical requirements
-<ol>
+<dl>
 <li>It is required to develop a multi-user client-server application with a network connection.</li>
 <li>All data must be stored on the server side. Each client can download some data, after each change operation, the data must be synchronized with the server.</li>
 <li>The client must have a UI.</li>
 <li>The application must handle hardware and software errors.</li>
-</ol>
+</dl>
 
 ## Project structure
 
@@ -71,9 +73,41 @@ message on login page.</li>
 
 ## Pathfinding algorithm
 
-Hamiltonian Path & Dijkstra's algorithms were used in order to find needed path between given set of cities.
-By using these two together, I managed to decrease time complexity from ... TO BE CONTINUED
+Combination of Hamiltonian Path & Dijkstra's algorithms was used in order to find needed path between given set of cities.
+By using these two together, I managed to decrease time complexity.
 
+#### Hamiltonian path
+
+Let's say we have 3 cities we need to visit and some cities between these three:
+![img_3.png](img_3.png)
+
+By using Hamiltonian Path algorithm, we can find all routes from starting point 
+(A) that visit each node exactly once. 
+On the picture above, there are 8 nodes (cities), each will have to be visited according to the algorithm logic.
+This is a perfect algorithm, the only problem is its time and space complexity - *O(N^2\*N!)*. 
+**So, for 8 cities algorithm will work as O(8^2*8!) = 2580480.**
+<br>Not only is this not good for performance, it's not commonly used in real world computing. 
+Instead, more complex and pre-computed algorithms are being used to calculate routes. 
+But, since we are not in real world, we need to find something simple that will help us out. 
+This is where Dijkstar's algorithms comes into play
+
+#### Dijkstra's algorithm
+Dijkstra's algorithm is a primary algorithm used for calculate 
+minimal route from a given node to every other in the set. It's time complexity is O(N^2), 
+furthermore, it can be dropped down to O(N + E*log(N)) when using priority-queue.
+
+Here's an example:
+![img_8.png](img_8.png)
+So, we have set of 8 cities with the starting point A, now we have distance from A to every other node in the set.
+**The result is O(8^2) = 64.**
+
+#### How it works together?
+Now that we have an algorithm that finds all possible routes in a given set of cities, and algorithm that find minimal distance between those cities, we can combine them:
+![img_6.png](img_6.png)
+Now, we don't need to calculate all possible routes between 8 cities, just 3 of them (Again, ones that we need to visit). Once the order of initial cities is calculated, 
+we call Dijkstra's algorithm to find minimal distance between initial cities (from A to B, from B to C).
+
+So, by doing a little math we can now come to a conclusion that **the final time complexity is O(3^2\*3!)\*O(8^2) = O(3^2\*3!\*8^2) = 3456** which is much better than **2580480**
 
 ## Technology stack
 <dl>
