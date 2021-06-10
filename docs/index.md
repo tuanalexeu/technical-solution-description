@@ -54,6 +54,7 @@ nav:
       - 'Docker': 'deployment/docker.md'
       - 'Kubernetes': 'deployment/k8s.md'
       - 'Google Cloud Platform': 'deployment/gcp.md'
+      - 'DNS': 'deployment/dns.md'
   - 'Summary': 'summary.md'
 ```
 
