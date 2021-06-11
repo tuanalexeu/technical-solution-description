@@ -63,13 +63,13 @@ nav:
   - 'Home': 'index.md'
   - 'Microservices':
       - 'Logiweb': 'microservices/logiweb-service.md'
-      - 'Dashboard': 'microservices/info-table.md'
+      - 'Dashboard': 'microservices/dashboard-service.md'
       - 'Client Service': 'microservices/client-order-service.md'
       - 'Chat Service': 'microservices/chat-service.md'
       - 'Spring Cloud Config': 'microservices/config-service.md'
   - 'Logging': 'logging.md'
   - 'Testing': 'testing.md'
-  - 'MQ Broker': 'rabbitmq.md'
+  - 'MQ Broker': 'messaging.md'
   - 'Deployment':
       - 'GitLab': 'deployment/gitlab.md'
       - 'Docker': 'deployment/docker.md'
