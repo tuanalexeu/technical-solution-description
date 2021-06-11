@@ -12,5 +12,20 @@ This is what my project consists of:
 ![img_1.png](img_1.png)
 
 ## Future of the project
+Now that I have REST endpoints and Google Cloud Support, my project can be easily scaled.
+Unfortunately, I was pressed for time and didn't 
+manage to implement all the functionality I wanted. Here's what my future plans are:
 
-To be written...
+#### Technical support
+The project is ready for production, yet the development is not finished. 
+Now I need to support the project, so that users want to use it. This includes bug fixing & new functionality.
+
+#### Mobile application
+I don't reckon that users will be pleased to use only web application. 
+Nowadays, the mobile app market occupies more than 70%, and the number is increasing.
+Obviously, I'll need an Android/IOS application for my platform.
+
+#### Cloud Provider
+I only chose Google Cloud Platform for educational purposes. 
+In real world, I need to consider choosing a cheap and reliable provider.
+It's not necessary to migrate from Google at all, I just need to think it through and find out what the best choice is.
