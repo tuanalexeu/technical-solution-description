@@ -70,6 +70,61 @@ Instead, the message "User already exists" is shown.</li>
 message on login page.</li>
 <li>Brute-force-login protection: User will be banned by IP address after 10 failed attempts.</li>
 </dl>
+![img_7.png](img_7.png)
+
+## Scheduled tasks:
+
+In Logiweb application there are a couple of task that run asynchronously in order to do some backgrounds jobs. 
+Those might be:
+<dl>
+<li>Cleaning database from registration/verification tokens</li>
+<li>Email notification (To be implemented...)</li>
+<li>Anything else</li>
+</dl>
+
+Here is 2 different kind of tasks:
+
+
+<dl>
+<li>
+This one executes in async every Monday & Friday at 11 P.M. Its purpose is to clean verification tokens 
+(ones, that are created when user go through registration process):
+```java
+@Async
+@Scheduled(cron = "0 0 23 * * MON,FRI")
+public void scheduledTask() {
+    verificationService.deleteAll();
+}
+```
+</li>
+
+<li>
+And this task executes after fixed delay (After 3 day, to be precise). Here's its configuration:
+```java
+@Configuration
+@EnableAsync
+@EnableScheduling
+public class SchedulingConfig {
+    @Bean
+    public ThreadPoolTaskScheduler threadPoolTaskScheduler(){
+        ThreadPoolTaskScheduler threadPoolTaskScheduler
+                = new ThreadPoolTaskScheduler();
+        threadPoolTaskScheduler.setPoolSize(5);
+        threadPoolTaskScheduler.setThreadNamePrefix(
+                "ThreadPoolTaskScheduler");
+        return threadPoolTaskScheduler;
+    }
+}
+```
+
+Now, in order to call it, I need to inject ThreadPoolTaskScheduler bean into a class and call:
+```java
+registerScheduler.scheduleWithFixedDelay(() -> 
+        userService.deleteIfUnconfirmed(userDto.getEmail()), 259200000
+);
+```
+</li>
+</dl>
 
 ## Pathfinding algorithm
 
@@ -111,7 +166,7 @@ So, by doing a little math we can now come to a conclusion that **the final time
 
 ## Technology stack
 <dl>
-<li>Spring Framework</li>
+<li>Spring Framework (Core, Boot, Data, Cloud)</li>
 <li>Google Cloud SDK</li>
 <li>JPA</li>
 <li>MySQL</li>

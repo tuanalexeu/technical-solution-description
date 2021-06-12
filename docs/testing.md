@@ -42,6 +42,39 @@ Dependencies for testing:
 ...
 ```
 
+## Unit tests
+In order to test my business logic, I used JUnit & Mockito Frameworks.
+Here's an example test class for a service:
+```java
+@RunWith(MockitoJUnitRunner.class)
+public class DriverServiceTest {
+
+    @InjectMocks
+    DriverServiceImpl service;
+
+    @Mock
+    DriverDaoImpl dao;
+
+    @Mock
+    ModelMapper mapper;
+    
+    @Before
+    public void init() {
+        MockitoAnnotations.initMocks(this);
+    }
+
+    @Test
+    public void findAllTest() {
+        // Some code here
+    }
+
+    @Test
+    public void findByIdTest() {
+        // Some code here
+    }
+}
+```
+
 ## Integration tests
 I created property file to connection to embedded database:
 ```yaml
@@ -68,6 +101,6 @@ public class EmployeeRestControllerIntegrationTest {
     @Autowired
     private MockMvc mvc;
 
-    // write test cases here
+    // Some test methods here
 }
 ```
