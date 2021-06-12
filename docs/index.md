@@ -27,7 +27,6 @@ each will be explained in the following sections. </p>
 11. Unit tests for business logic
 
 ## SonarQube
-
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=tuanalexeu_logiweb-microservices)](https://sonarcloud.io/dashboard?id=tuanalexeu_logiweb-microservices)
 
 ## About this site
