@@ -45,6 +45,23 @@ management.endpoints.web:
   include: '*'
 ```
 
+## Profiles
+When developing and testing, I don't need to connect to remote database and related services. 
+What I need is to run the whole project locally, but how can I do that? I surely don't want to write the 2nd project with slightly different configuration. 
+This is the exact case what Spring Profiles were created for. 
+<br>
+In my project I have two profiles:
+*Default* (For production) and *Dev*. *Default* profile keeps all the properties for connecting to remote set services (DB, GCP, etc), 
+while *Dev* keeps properties for another services (They also might be remote, they're just not the same, this is the point).
+
+Here's how it looks like:
+<br>
+![img_4.png](img_4.png)
+
+One of them will be chosen automatically at runtime according to running command. 
+Now, all I need to do is to pass command `-Dspring-boot.run.profiles=default` after `java -jar` 
+in order to run my application with *default* profile.
+
 ## Technology stack
 <dl>
 <li>Spring Boot</li>
