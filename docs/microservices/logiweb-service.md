@@ -41,7 +41,7 @@ Postgres might be a worse choice than MySQL.</li>
 </dl>
 
 Here you can see my ERM (Entity Relationship Diagram) of my MySQL schema:
-![img.png](img.png)
+![schema.png](images/schema.png)
 
 In order to access the data, I use JPA (Hibernate) and DAO & Service tiers from Spring MVC.
 #### Controller
@@ -70,7 +70,8 @@ Instead, the message "User already exists" is shown.</li>
 message on login page.</li>
 <li>Brute-force-login protection: User will be banned by IP address after 10 failed attempts.</li>
 </dl>
-![img_7.png](img_7.png)
+
+![ban.png](images/ban.png)
 
 ## Scheduled tasks:
 
@@ -134,7 +135,7 @@ By using these two together, I managed to decrease time complexity.
 #### Hamiltonian path
 
 Let's say we have 3 cities we need to visit and some cities between these three:
-![img_3.png](img_3.png)
+![hamiltonian-path.png](images/hamiltonian-path.png)
 
 By using Hamiltonian Path algorithm, we can find all routes from starting point 
 (A) that visit each node exactly once. 
@@ -152,13 +153,13 @@ minimal route from a given node to every other in the set. It's time complexity 
 furthermore, it can be dropped down to O(N + E*log(N)) when using priority-queue.
 
 Here's an example:
-![img_8.png](img_8.png)
+![dijkstra.png](images/dijkstra.png)
 So, we have set of 8 cities with the starting point A, now we have distance from A to every other node in the set.
 **The result is O(8^2) = 64.**
 
 #### How it works together?
 Now that we have an algorithm that finds all possible routes in a given set of cities, and algorithm that find minimal distance between those cities, we can combine them:
-![img_6.png](img_6.png)
+![algorithm-combination.png](images/algorithm-combination.png)
 Now, we don't need to calculate all possible routes between 8 cities, just 3 of them (Again, ones that we need to visit). Once the order of initial cities is calculated, 
 we call Dijkstra's algorithm to find minimal distance between initial cities (from A to B, from B to C).
 

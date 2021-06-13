@@ -23,7 +23,7 @@ In order to register, user must log in first via GitHub. I used Spring OAuth2.0 
 Once authenticated, the user will automatically be registered (Only after very 1st login)
 and have additional functionality (Like making new order).
 
-![img_1.png](img_1.png)
+![oauth-github.png](images/oauth-github.png)
 
 
 ## Technology stack

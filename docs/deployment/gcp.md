@@ -15,19 +15,19 @@ VM-instances, remote DB, MQ-Services and many other tools. In Logiweb Microservi
 ## Google Kubernetes Engine
 I created a cluster with 3 nodes (VM instances) in it. Those nodes are considered as one whole. 
 It means that I don't need to know hot to establish connection between them in order to successfully run my project.
-![img_2.png](img_2.png)
+![cluster-config.png](images/cluster-config.png)
 
 All the deployments I describe in the previous section go and run here.
 
 ## Google Cloud SQL
 Using Google Cloud SQL (MySQL) instead of deploying my own database as a service, 
 I get rid of most of the problems: Scaling, Supporting, Recovering. Google will take care of it.
-![img_4.png](img_4.png)
+![db-config.png](images/db-config.png)
 
 ## Google Pub/Sub
 This is a great alternative to RabbitMQ & ActiveMQ. The difference is, the broker is Google itself. 
 It stores messages to remote Data store volume and sends it to subs whenever they're ready.
-![img_5.png](img_5.png)
+![topic-info.png](images/topic-info.png)
 
 ## Why not Amazon Web Services?
 It's important to note that my project was running on AWS first, but since Amazon doesn't provide free trial for 
@@ -35,7 +35,7 @@ some of its services (e.g. Amazon EKS, Amazon MQ), I decided to migrate to Googl
 
 
 #### Key differences
-![img_3.png](img_3.png)
+![cloud-comparison.png](images/cloud-comparison.png)
 
 #### What are the alternatives?
 While working with Amazon, I used services such as EKS, MQ, EC2, RDS. Fortunately, I found all needed alternatives in Google Cloud.

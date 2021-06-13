@@ -9,7 +9,7 @@ Frankly speaking, it was not easy to maintain the project alone, since it requir
 but I am finally able to see the whole picture of how enterprise projects work.
 
 This is what my project consists of:
-![img_1.png](img_1.png)
+![summary.png](images/summary.png)
 
 ## Future of the project
 Now that I have REST endpoints and Google Cloud Support, my project can be easily scaled.

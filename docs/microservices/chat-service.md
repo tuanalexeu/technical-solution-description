@@ -3,7 +3,7 @@
 <br>Kotlin and Spring for a chat
 </h1>
 
-![img_2.png](img_2.png)
+![chat.png](images/chat.png)
 
 ## Description
 Our clients should be able to get in touch with staff. For that purpose, 

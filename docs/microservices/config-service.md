@@ -57,7 +57,7 @@ while *Dev* keeps properties for another services (They also might be remote, th
 Here's how it looks like:
 <br>
 <br>
-![img_4.png](img_4.png)
+![config-structure.png](images/config-structure.png)
 <br>
 
 One of them will be chosen automatically at runtime according to running command. 
