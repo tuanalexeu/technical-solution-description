@@ -1,2 +1,5 @@
-# technical-solution-description
-Technical solution description for 1st &amp; 2nd part applications
+# Technical solution description for Logiweb Microservices
+How to start:
+```shell
+mkdocs build; mkdocs serve
+```
