@@ -60,7 +60,7 @@ class LogiwebBotService : TelegramLongPollingBot() {
 ```
 
 It's done now, our bot is working and can be accessed from telegram:
-
+![bot.jpg](images/bot.jpg)
 
 ## Technology stack
 <dl>
