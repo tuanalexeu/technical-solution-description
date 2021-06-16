@@ -66,6 +66,7 @@ nav:
       - 'Dashboard': 'microservices/dashboard-service.md'
       - 'Client Service': 'microservices/client-order-service.md'
       - 'Chat Service': 'microservices/chat-service.md'
+      - 'Telegram Bot': 'microservices/telegram-bot-service.md'
       - 'Spring Cloud Config': 'microservices/config-service.md'
   - 'Logging': 'logging.md'
   - 'Testing': 'testing.md'
