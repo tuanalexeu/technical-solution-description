@@ -1,5 +1,5 @@
 <h1 align="center">
-<br><img src="https://futurehax.com/wp-content/uploads/2020/06/gitlab-icon-rgb.png" alt="drawing" width="200">
+<img src="https://futurehax.com/wp-content/uploads/2020/06/gitlab-icon-rgb.png" alt="drawing" width="200">
 <br>GitLab is better for DevOps
 </h1>
 

@@ -1,5 +1,5 @@
 <h1 align="center">
-<br><img src="https://assets.zabbix.com/img/brands/rabbitmq.svg" alt="MkDocs icon" width="170">
+<img src="https://assets.zabbix.com/img/brands/rabbitmq.svg" alt="MkDocs icon" width="170">
 <br>MQ Broker
 </h1>
 

@@ -1,5 +1,5 @@
 <h1 align="center">
-<br><img src="https://comunytek.com/wp-content/uploads/2017/03/Microservices.png" alt="MkDocs icon" width="170">
+<img src="https://comunytek.com/wp-content/uploads/2017/03/Microservices.png" alt="MkDocs icon" width="170">
 <br>Summary
 </h1>
 

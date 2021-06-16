@@ -1,5 +1,5 @@
 <h1 align="center">
-<br><img src="https://download.logo.wine/logo/Google_Cloud_Platform/Google_Cloud_Platform-Logo.wine.png" alt="MkDocs icon" width="200">
+<img src="https://download.logo.wine/logo/Google_Cloud_Platform/Google_Cloud_Platform-Logo.wine.png" alt="MkDocs icon" width="200">
 <br>Google Cloud takes care of everything
 </h1>
 

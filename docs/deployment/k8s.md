@@ -1,5 +1,5 @@
 <h1 align="center">
-<br><img src="https://www.logo.wine/a/logo/Kubernetes/Kubernetes-Logo.wine.svg" alt="drawing" width="200">
+<img src="https://www.logo.wine/a/logo/Kubernetes/Kubernetes-Logo.wine.svg" align="center" alt="drawing" width="200">
 <br>Kubernetes orchestration
 </h1>
 

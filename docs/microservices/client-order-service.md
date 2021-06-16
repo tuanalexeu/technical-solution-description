@@ -1,6 +1,5 @@
 <h1 align="center">
-<br><img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
-<br><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--DsJ-6-vJ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://1.bp.blogspot.com/-3jpI3JUMG50/XxfUjQ622HI/AAAAAAAAwKE/Gu3vitwlnPgFW7c31dhW3cQek1j8qu69wCLcBGAsYHQ/d/java_foundation_oauth2_logo.PNG" alt="MkDocs icon" width="170">
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--DsJ-6-vJ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://1.bp.blogspot.com/-3jpI3JUMG50/XxfUjQ622HI/AAAAAAAAwKE/Gu3vitwlnPgFW7c31dhW3cQek1j8qu69wCLcBGAsYHQ/d/java_foundation_oauth2_logo.PNG" style="margin-left: 20px" alt="MkDocs icon" width="170">
 <br>Client Service
 </h1>
 

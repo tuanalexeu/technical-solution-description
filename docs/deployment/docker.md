@@ -1,5 +1,5 @@
 <h1 align="center">
-<br><img src="https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png" alt="drawing" width="200">
+<img src="https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png" alt="drawing" width="200">
 <br><br>Containerization
 </h1>
 

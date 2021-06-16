@@ -1,5 +1,5 @@
 <h1 align="center">
-<br><img src="https://download.logo.wine/logo/Kotlin_(programming_language)/Kotlin_(programming_language)-Logo.wine.png" alt="MkDocs icon" width="170">
+<img src="https://download.logo.wine/logo/Kotlin_(programming_language)/Kotlin_(programming_language)-Logo.wine.png" alt="MkDocs icon" width="170">
 <br>Kotlin and Spring for a chat
 </h1>
 
@@ -77,4 +77,6 @@ class WebSocketConfig : WebSocketMessageBrokerConfigurer {
 <li>Spring Boot</li>
 <li>Kotlin</li>
 <li>Maven</li>
+<li>Web Socket</li>
+<li>RabbitMQ</li>
 </dl>

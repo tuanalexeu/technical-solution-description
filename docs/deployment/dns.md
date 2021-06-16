@@ -1,5 +1,5 @@
 <h1 align="center">
-<br><img src="https://timeweb.com/ru/community/article/1a/1a2d71309f93cef9b598902723e531ca.png" alt="MkDocs icon" width="170">
+<img src="https://timeweb.com/ru/community/article/1a/1a2d71309f93cef9b598902723e531ca.png" alt="MkDocs icon" width="170">
 <br>Domain Name System to make the platform available on the Internet
 </h1>
 
