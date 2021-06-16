@@ -1,6 +1,6 @@
 <h1 align="center">
 <img src="https://download.logo.wine/logo/Kotlin_(programming_language)/Kotlin_(programming_language)-Logo.wine.png" alt="MkDocs icon" width="170">
-<br>Kotlin and Spring for a chat
+<br><a href="http://chat.logiweb.site">Kotlin and Spring for a chat</a>
 </h1>
 
 ![chat.png](images/chat.png)

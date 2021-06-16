@@ -1,6 +1,6 @@
 <h1 align="center">
 <img src="https://www.logo.wine/a/logo/Telegram_(software)/Telegram_(software)-Logo.wine.svg" style="margin-left: 25px" alt="MkDocs icon" width="170">
-<br>Telegram bot
+<br>Telegram bot (@LogiwebBot)
 </h1>
 
 ## Description
