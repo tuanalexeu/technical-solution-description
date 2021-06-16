@@ -7,8 +7,8 @@
 
 <p>
 Logiweb Microservices is a big project with microservice architecture. That is, this is REST-ful application deployed to Google Cloud.
-It consists of 5 services: Logiweb, Dashboard, Client Service, Centralized Config Server and Chat Service, 
-each will be explained in the following sections. </p>
+It consists of 7 services: Logiweb, Dashboard, Client Service, Chat, Telegram Bot, Centralized Config Server and TSD (You are here).
+Each will be explained in the following sections. </p>
 
 <!-- https://shields.io/ -->
 

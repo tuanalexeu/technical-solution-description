@@ -5,7 +5,7 @@
 
 ## Description
 
-<p>So far, I have 5 microservices and this site. 
+<p>So far, I have 7 microservices and this site. 
 It's not good to run them all together within one environment, that'll cause ports/resources conflicts.
 So, I needed something that will help me out. Docker is my solution. Now I'm able to run all the applications separately,
 each in inside its own virtual environment.</p>
