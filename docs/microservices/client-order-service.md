@@ -1,6 +1,6 @@
 <h1 align="center">
 <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--DsJ-6-vJ--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://1.bp.blogspot.com/-3jpI3JUMG50/XxfUjQ622HI/AAAAAAAAwKE/Gu3vitwlnPgFW7c31dhW3cQek1j8qu69wCLcBGAsYHQ/d/java_foundation_oauth2_logo.PNG" style="margin-left: 20px" alt="MkDocs icon" width="170">
-<br><a href="http://client.logiweb.site">Client Service</a>
+<br>Client Service
 </h1>
 
 ## Description

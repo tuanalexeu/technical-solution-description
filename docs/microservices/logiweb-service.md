@@ -1,6 +1,6 @@
 <h1 align="center">
 <img src="https://dwglogo.com/wp-content/uploads/2017/12/Spring_Framework_logo_01.png" alt="MkDocs icon" width="170">
-<br><a href="http://logiweb.site">Main Logiweb Application</a>
+<br>Main Logiweb Application
 </h1>
 
 ## Description

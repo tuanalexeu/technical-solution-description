@@ -1,6 +1,7 @@
 <h1 align="center">
+<br>
 <img src="https://www.proximitycr.com/wp-content/uploads/2019/04/Java-EE.png" alt="MkDocs icon" width="170">
-<br><a href="http://dashboard.logiweb.site">Dashboard</a>
+<br>Dashboard
 </h1>
 
 ## Description
